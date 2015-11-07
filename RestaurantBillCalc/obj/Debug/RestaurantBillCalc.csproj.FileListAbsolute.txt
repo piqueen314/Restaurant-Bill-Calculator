@@ -1,0 +1,8 @@
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\RestaurantBillCalc.exe.config
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\RestaurantBillCalc.exe
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\RestaurantBillCalc.pdb
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.BillCalc.resources
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.Properties.Resources.resources
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.csproj.GenerateResource.Cache
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.exe
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.pdb
