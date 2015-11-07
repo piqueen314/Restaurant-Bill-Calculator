@@ -6,3 +6,4 @@ C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.Prope
 C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.csproj.GenerateResource.Cache
 C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.exe
 C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.pdb
+C:\Code\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\RestaurantBillCalc.csprojResolveAssemblyReference.cache

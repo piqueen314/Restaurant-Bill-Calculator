@@ -39,7 +39,7 @@
             this.menuGroupBox = new System.Windows.Forms.GroupBox();
             this.receiptGroupBox = new System.Windows.Forms.GroupBox();
             this.removeButton = new System.Windows.Forms.Button();
-            this.recieptListBox = new System.Windows.Forms.ListBox();
+            this.receiptListBox = new System.Windows.Forms.ListBox();
             this.totalGropBox = new System.Windows.Forms.GroupBox();
             this.totalTextBox = new System.Windows.Forms.TextBox();
             this.taxTextBox = new System.Windows.Forms.TextBox();
@@ -175,13 +175,13 @@
             // receiptGroupBox
             // 
             this.receiptGroupBox.Controls.Add(this.removeButton);
-            this.receiptGroupBox.Controls.Add(this.recieptListBox);
+            this.receiptGroupBox.Controls.Add(this.receiptListBox);
             this.receiptGroupBox.Location = new System.Drawing.Point(17, 144);
             this.receiptGroupBox.Name = "receiptGroupBox";
             this.receiptGroupBox.Size = new System.Drawing.Size(332, 340);
             this.receiptGroupBox.TabIndex = 10;
             this.receiptGroupBox.TabStop = false;
-            this.receiptGroupBox.Text = "Reciept";
+            this.receiptGroupBox.Text = "receipt";
             // 
             // removeButton
             // 
@@ -193,13 +193,13 @@
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
-            // recieptListBox
+            // receiptListBox
             // 
-            this.recieptListBox.FormattingEnabled = true;
-            this.recieptListBox.Location = new System.Drawing.Point(13, 19);
-            this.recieptListBox.Name = "recieptListBox";
-            this.recieptListBox.Size = new System.Drawing.Size(248, 316);
-            this.recieptListBox.TabIndex = 0;
+            this.receiptListBox.FormattingEnabled = true;
+            this.receiptListBox.Location = new System.Drawing.Point(13, 19);
+            this.receiptListBox.Name = "receiptListBox";
+            this.receiptListBox.Size = new System.Drawing.Size(248, 316);
+            this.receiptListBox.TabIndex = 0;
             // 
             // totalGropBox
             // 
@@ -322,7 +322,7 @@
         private System.Windows.Forms.Label subtotalLabel;
         private System.Windows.Forms.Button clearBillButton;
         private System.Windows.Forms.Button removeButton;
-        private System.Windows.Forms.ListBox recieptListBox;
+        private System.Windows.Forms.ListBox receiptListBox;
     }
 }
 

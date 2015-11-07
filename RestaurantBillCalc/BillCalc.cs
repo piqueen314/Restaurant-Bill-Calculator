@@ -27,8 +27,8 @@ namespace RestaurantBillCalc
         {
             var price = getPrice(appetizercComboBox.SelectedIndex, "appetizer");
             _items.Add(appetizercComboBox.Text + "\t" + price.ToString("C2"));
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
             subTotal += price;
             subtotalTextBox.Text = subTotal.ToString("N2");
             tax = .075*subTotal;
@@ -42,8 +42,8 @@ namespace RestaurantBillCalc
         {
             var price = getPrice(beverageComboBox.SelectedIndex, "beverage");
             _items.Add(beverageComboBox.Text + "\t" + price.ToString("C2"));
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
             subTotal += price;
             subtotalTextBox.Text = subTotal.ToString("N2");
             tax = .075 * subTotal;
@@ -56,8 +56,8 @@ namespace RestaurantBillCalc
         {
             var price = getPrice(dessertComboBox.SelectedIndex, "dessert");
             _items.Add(dessertComboBox.Text + "\t" + price.ToString("C2"));
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
             subTotal += price;
             subtotalTextBox.Text = subTotal.ToString("N2");
             tax = .075 * subTotal;
@@ -70,8 +70,8 @@ namespace RestaurantBillCalc
         {
             var price = getPrice(mainCourseComboBox.SelectedIndex, "mainCourse");
             _items.Add(mainCourseComboBox.Text + "\t" + price.ToString("C2"));
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
             subTotal += price;
             subtotalTextBox.Text = subTotal.ToString("N2");
             tax = .075 * subTotal;
@@ -212,8 +212,8 @@ namespace RestaurantBillCalc
             tax = 0.0;
             total = 0.0;
             _items.Clear();
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
             subtotalTextBox.Text = subTotal.ToString("N2");
             taxTextBox.Text = tax.ToString("N2");
             totalTextBox.Text = total.ToString("N2");
@@ -222,7 +222,7 @@ namespace RestaurantBillCalc
 
         private void removeButton_Click(object sender, EventArgs e)
         {
-            int selectedIndex = recieptListBox.SelectedIndex;
+            int selectedIndex = receiptListBox.SelectedIndex;
             string parseItem = _items.ElementAt(selectedIndex);
             string[] words = parseItem.Split(Convert.ToChar("$"));
             subTotal -= Convert.ToDouble(words[1]);
@@ -232,8 +232,8 @@ namespace RestaurantBillCalc
             total = subTotal + tax;
             totalTextBox.Text = total.ToString("N2");
             _items.RemoveAt(selectedIndex);
-            recieptListBox.DataSource = null;
-            recieptListBox.DataSource = _items;
+            receiptListBox.DataSource = null;
+            receiptListBox.DataSource = _items;
 
         }
 
